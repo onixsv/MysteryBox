@@ -1,0 +1,13 @@
+name: MysteryBox
+author: alvin0319
+main: MysteryBox\MysteryBox
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  뽑기관리:
+    permissions: mysterybox.command.use
+    description: 뽑기관리 명령어입니다.
+
+permissions:
+  mysterybox.command.use: op
